@@ -45,7 +45,7 @@
 #define ExtSourceT0_FallingE  6
 #define ExtSourceT0_RaisingE  7
 
-#define CLK_Pre Pre256
+#define CLK_Pre Pre64
 
 
 #define T0_OCR_Value 95

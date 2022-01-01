@@ -21,7 +21,7 @@ int main()
 	TMR0_init();   /*initiating the timer 0*/
 	lcd_init();   /*initiating the lcd*/
 	PORTD = 0xFF;      /* Turn ON pull-up resistor */
-	TMR0_Set_OCR(200);   /*setting a value for ocr in timer 0*/
+	TMR0_Set_OCR(150);   /*setting a value for ocr in timer 0*/
 	TIMSK|=(1<<2);    /* Overflow Interrupt Enable*/
 	TCCR1A=0;        /*clear register TCCR1A*/
     asm("SEI");    /*embed assembler instructions*/
